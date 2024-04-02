@@ -8,7 +8,7 @@ from ultralytics.utils.plotting import Annotator, colors
 from collections import defaultdict
 
 track_history = defaultdict(lambda: [])
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8m.pt")
 names = model.model.names
 
 # video_path = "/path/to/video/file.mp4"
