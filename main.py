@@ -4,9 +4,9 @@ import numpy as np
 import torch
 
 
-cap = cv2.VideoCapture("app.mp4")
+cap = cv2.VideoCapture("app.mp4") # Video source
 
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov8m.pt") # Model selection
 
 while True:
     ret, frame = cap.read()
